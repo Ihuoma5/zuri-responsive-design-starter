@@ -6,17 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Webpage</title>
     <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
 </head>
 <body>
-    <div class="nav-bar">
-        <div class="logo">Snapshot</div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
+    <header class="site-header sticky-top text-uppercase">
+      <nav class="nav-bar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid px-4 px-lg-5 py-2 logo">Snapshot</div>
+          
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#insureNav" 
+              aria-controls="insureNav"
+              aria-expanded="false"
+              aria-label="Toggle Navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-end" id="insureNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#" class="nav-link primary-color-violet"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link primary-color-violet">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link primary-color-violet">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link primary-color-violet">Contact</a>
+                  </li>          
+                    </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <!-- Hero section -->
 
