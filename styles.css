@@ -460,4 +460,28 @@ textarea {
     flex-direction: column;
     display: none ;
 }
+div.nav-bar {
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.btn-hold {
+    display: block;
+}
+ul.nav-links {
+    display: none;
+}
+/* ul.nav-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 10px 0;
+} */
+.nav-links li {
+    padding: 10px;
+    display: inline-block;
+}
   }
